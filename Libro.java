@@ -4,13 +4,16 @@ public class Libro {
 	String titulo;
 	Autor autor;
 	boolean prestado;
+	string editorial;
 
 	public Libro(){}
 
 	public Libro(String titulo, Autor autor ) {		
 		this.titulo = titulo;
 		this.autor = autor;
-		this.prestado = false;	}
+		this.prestado = false;
+		
+	}
 
 	public Libro (String titulo){
 		this.titulo = titulo;		
