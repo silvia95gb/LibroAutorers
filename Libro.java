@@ -14,6 +14,7 @@ public class Libro {
 		this.prestado = false;
 		
 	}
+	
 
 	public Libro (String titulo){
 		this.titulo = titulo;		
@@ -48,9 +49,6 @@ public class Libro {
 			System.out.println("No se puede devolver porque no esta prestado");
 		else prestado=false;	}
 
-	public String toString() {
-		return "Libro [titulo=" + titulo + ", autor=" + autor.toString() + ", prestado="
-		+ prestado + "]";
-	}
+	
 }
 
