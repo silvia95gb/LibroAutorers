@@ -20,7 +20,7 @@ public class Lista {
 		System.out.println("El Tamaño de la lista es [" + listaDeEnteros.size()+ "]");
 		System.out.println("Los Valores de la lista:");
 
-		for (int i ; i< listaDeEnteros.size(); i+++) {
+		for (int i=0 ; i< listaDeEnteros.size(); i+++) {
 			System.out.println("Posicion de la lista : ["+ (i + 1) + "] " + listaDeEnteros.get(i));
 		}
 	}
