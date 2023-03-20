@@ -30,7 +30,7 @@ Libro  a = new Libro("hola", "mola");
 		this.edad = edad;	}
 
 	public String toString() {
-		return "Autor [nombre=" + nombre + ", edad=" + edad + "]";	}
+		return "Autor [name=" + nombre + ", edad=" + edad + "]";	}
 	
 	
 }
