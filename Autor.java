@@ -5,6 +5,7 @@ import javax.management.remote.JMXPrincipal;
 public class Autor  extends Libro{
 	String nombre;
 	int edad;
+	String sexo; 
 Libro  a = new Libro("hola", "mola");
 
 	public Autor(){	}
