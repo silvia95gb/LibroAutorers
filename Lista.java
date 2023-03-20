@@ -34,7 +34,9 @@ public class Lista {
 		}
 		return resultado;
 	}
+	System.out.println("los resultados son: "+resultado);
 }
+
 
 
 
