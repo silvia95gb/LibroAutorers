@@ -6,6 +6,7 @@ public class Autor  extends Libro{
 	String nombre;
 	int edad;
 	String sexo; 
+	int codigoLibro;
 Libro  a = new Libro("hola", "mola");
 
 	public Autor(){	}
